@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Seja Bem Vindo
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+    
+<ion-content [fullscreen]="true">
+  <div id="container">
+  
+   <ion-grid>
+     <ion-row>
+        <ion-col align-self-center>  
+        <img src="../../../../assets/Shield.png">
+        <ion-button [routerLink]="['/registro']" expand="block" color="success">REGISTRAR</ion-button>
+
+        
+
+        <ion-button [routerLink]="['/login']" expand="block" color="primary">LOGIN</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</div>
+</ion-content>
